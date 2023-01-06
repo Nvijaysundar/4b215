@@ -3,7 +3,7 @@ public class Product {
 	String Code,Name;
 	int qty;
 	float price;
-	public void setData(String pname,String pcode,
+	public  Product(String pname,String pcode,
 						int pqty,float pprice )
 	{
 		Code = pcode;
